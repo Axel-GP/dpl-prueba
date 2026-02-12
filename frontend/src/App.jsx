@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./App.css";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -28,7 +29,7 @@ export default function App() {
   }, []);
 
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial" }}>
+    <div style={{ padding: "28px", fontFamily: "Times New Roman" , backgroundColor: "yellow", color: "blue"}}>
       <h1>Actividad DPL Fullstack</h1>
       <form onSubmit={addItem}>
         <input
